@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "1"
 from ultralytics import YOLO
 import tempfile
 from PIL import Image
